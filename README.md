@@ -8,7 +8,7 @@
 
 * Your app will store every burger in a database, whether devoured or not.
 
-###Uses the following:
+### Uses the following:
 * express-handlebars
 * method-override
 * mysql
