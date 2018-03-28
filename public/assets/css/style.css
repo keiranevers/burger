@@ -1,25 +1,36 @@
-html, body, 
-
-body {
-	background-color: #18afe6;
-	color: #fff;
+html, body, .container {
+	height: 100%;
 }
 .well {
-	float: left;
-	width: 75%;
-	color: #e64f18;
+	float: right;
+	width: 100%;
+	vertical-align: baseline;
 }
 
 .devoured {
+	float: right;
 	width: 100%;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+#update {
+	float: left;
 }
 
-.form-group {
-  margin-bottom: 5px;
+#add {
+	float: left;
+	display: block;
+	text-align: center;
+	height: 10%;
+}
+#add>textarea {
+	width: 100%;
+	height: 100%;
+	color: #e64f18;
+	padding: 19px;
+}
+
+#add>button {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
 }
