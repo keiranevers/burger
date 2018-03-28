@@ -1,11 +1,19 @@
-li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+html, body, .container {
+	height: 100%;
 }
 
-.label {
-  font-weight: bold;
+body {
+	background-color: #18afe6;
+	color: #fff;
+}
+.well {
+	float: left;
+	width: 75%;
+	color: #e64f18;
+}
+
+.devoured {
+	width: 100%;
 }
 
 .create-update-form {
